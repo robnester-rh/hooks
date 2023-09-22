@@ -1,0 +1,6 @@
+- id: check-commit-message
+  name: Commit message format checks
+  language: script
+  entry: commit-msg/check-commit-message
+  pass_filenames: true
+  stages: [commit-msg]
